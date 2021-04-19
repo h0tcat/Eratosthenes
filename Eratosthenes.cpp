@@ -9,8 +9,8 @@ nori::Eratosthenes::Eratosthenes(size_t N){
 }
 
 nori::Eratosthenes::~Eratosthenes(){
-
-
+    delete this->numberList;
+    delete this->removedList;
 }
 
 void nori::Eratosthenes::Start(){
